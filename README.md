@@ -1,6 +1,7 @@
 # Election Map
 
 Single page website that displays the winners of the election at the top of the map. Mouse over each state to change the color and see who won that state. (HTML/CSS/JavaScript/jQuery)
+** code reference to third-party file map.js 
 
 ### Context
 * There are two fictitious candidates, each running for President.
