@@ -7,6 +7,7 @@ var createPolitician = function(name, partyColor) {
 
   return politician;
 };
+// assign a party color to each politician
 var jane = createPolitician("Jane Doe", [132, 17, 11]);
 var john = createPolitician("John Doe", [245, 141, 136]);
 
@@ -77,9 +78,6 @@ winner();
 
 console.log("The winner is " + winner + "!!!");
 
-// assign a party color to each politician
-// var jane = createPolitician("Jane Doe", [132, 17, 11]);
-// var john = createPolitician("John Doe", [245, 141, 136]);
 
 console.log("Jane's color is: " + jane.partyColor);
 console.log("John's color is: " + john.partyColor);
