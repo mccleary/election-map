@@ -48,7 +48,7 @@ var setStateResults = function(state) {
     if(stateWinner !== null) {
       theStates[state].rgbColor = stateWinner.partyColor;
     } else {
-      theStates[state].rgbColor = RGB[11, 32, 57];
+      theStates[state].rgbColor = RGB(11, 32, 570);
     }
 };
 
