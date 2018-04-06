@@ -1,6 +1,6 @@
 # Election Map
 
-Single page website that displays the winners of the election at the top of the map. Mouse over each state to change the color and see who won that state. (HTML/CSS/JavaScript/jQuery)
+Single page website that displays the winners of the election at the top of the map. Mouse over each state to change the color and see who won that state. (HTML/CSS/JavaScript)
 ** code reference to third-party file map.js
 
 ### Context
@@ -19,4 +19,7 @@ Single page website that displays the winners of the election at the top of the 
 ![Election Map Image](img/election-map.png)
 
 ### State Results Spreadsheet
-![State Results Image](img/Election-Results-Per-State.pdf)
+![Click here for State Results Spreadsheet](img/Election-Results-Per-State.pdf)
+
+![Election Map Image](img/election-results-per-state1)
+![Election Map Image](img/election-results-per-state2)
