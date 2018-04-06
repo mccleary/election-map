@@ -43,6 +43,8 @@ var setStateResults = function(state) {
     winner = draw;
   }
 
+
+
   var stateWinner = theStates[state].winner;
 
     if(stateWinner !== null) {
@@ -51,6 +53,24 @@ var setStateResults = function(state) {
       theStates[state].rgbColor = RGB(11, 32, 570);
     }
 };
+
+// information to popluate the table at the top of the page with each candidates name and total number of votes
+var countryInfoTable = document.getElementById("countryResults");
+var row = countryInfoTable.children[0].children[0];
+
+row.children[0].innerText = jane.name;
+row.children[1].innerText = jane.totalVotes;
+row.children[2].innerText = john.name;
+row.children[3].innerText = john.totalVotes;
+row.children[5].innerText = winner;
+
+// popluate info in the bottom table for state name and abbr
+var stateInfoTable = document.getElementById("stateResults");
+var header = stateInfoTable.children[0].children[0];
+var stateName = header.children[0];
+
+stateName.innerText = theStates[state].nameFull;
+
 
 // method to tally the votes for each politician
 politician.addTotalVotes = function() {
