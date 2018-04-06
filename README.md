@@ -19,7 +19,7 @@ Single page website that displays the winners of the election at the top of the 
 ![Election Map Image](img/election-map.png)
 
 ### State Results Spreadsheet
-![Click here for State Results Spreadsheet](img/Election-Results-Per-State.pdf)
+![Click here for State Results Spreadsheet or view below](img/Election-Results-Per-State.pdf)
 
-![Election Map Image](img/election-results-per-state1)
-![Election Map Image](img/election-results-per-state2)
+![Election Map Image](img/election-results-per-state1.png)
+![Election Map Image](img/election-results-per-state2.png)
